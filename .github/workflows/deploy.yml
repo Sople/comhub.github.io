@@ -54,7 +54,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: htts://www.sople.net
     needs: build
     runs-on: ubuntu-latest
     name: Deploy
