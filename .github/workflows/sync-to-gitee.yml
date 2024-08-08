@@ -1,0 +1,26 @@
+name: Sync to Gitee
+
+on:
+  push:
+    branches:
+      - main  # 监听 main 分支的推送事件
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Mirror repository to Gitee
+      env:
+        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+      run: |
+        git remote add gitee https://oauth2:${GITEE_TOKEN}@gitee.com/<your-gitee-username>/<your-gitee-repo>.git
+        git push --mirror gitee
