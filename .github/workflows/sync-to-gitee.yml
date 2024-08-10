@@ -15,14 +15,19 @@ jobs:
       with: 
         fetch-depth: 0
 
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
     - name: Set up Git
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git config --global user.name 'sople'
+        git config --global user.email '1277969+sople@user.noreply.gitee.com'
 
     - name: Mirror repository to Gitee
       env:
         GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
       run: |
-        git remote add gitee https://oauth2:${GITEE_TOKEN}@gitee.com/comhub/sople.net.git
+        git remote add gitee git@gitee.com:comhub/sople.net.git
         git push --mirror gitee
