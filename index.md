@@ -4,8 +4,7 @@ layout: home
 
 hero:
   name: "Sople.net"
-  text: "So many people network"
-  tagline: My great project tagline 5
+  tagline: Full-Stack Development Technology
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +14,17 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: JavaScript
+    details: Technology Stack
+    link: /javascript/index.md
+  - title: CSS
+    details: Technology Stack
+    link: /markdown-examples
+  - title: HTML
+    details: Technology Stack
+    link: /markdown-examples
+  - title: Node.js
+    details: Technology Stack
+    link: /markdown-examples
 ---
 
