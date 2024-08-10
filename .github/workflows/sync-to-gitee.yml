@@ -1,9 +1,9 @@
-name: Sync to Gitee
+name: sync-to-gitee
 
 on:
   push:
     branches:
-      - main  # 监听 main 分支的推送事件
+      - main  # monitor the main branch
 
 jobs:
   sync:
@@ -13,7 +13,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with: 
-        fetch-depth: 0
+        fetch-depth: 0 # checkout the entire repository
 
     - name: Set up SSH
       run: |
