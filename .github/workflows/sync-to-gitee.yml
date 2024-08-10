@@ -23,7 +23,7 @@ jobs:
     - name: Set up Git
       run: |
         git config --global user.name 'sople'
-        git config --global user.email 'liuyancao@126.com'
+        git config --global user.email '1277969+sople@user.noreply.gitee.com'
 
     - name: Mirror repository to Gitee
       env:
