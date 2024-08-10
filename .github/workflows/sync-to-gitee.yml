@@ -25,10 +25,15 @@ jobs:
         eval "$(ssh-agent -s)"
         ssh-add ~/.ssh/id_rsa
 
+    - name: Debug Secrets
+      run: |
+        echo "GITEE_USERNAME: ${{ secrets.GITEE_NAME }}"
+        echo "GITEE_EMAIL: ${{ secrets.GITEE_EMAIL }}"
+
     - name: Set up Git
       run: |
-        git config --global user.name 'sople'
-        git config --global user.email 'liuyancao@126.com'
+        git config --global user.name '${{ secrets.GITEE_NAME }}'
+        git config --global user.email '${{ secrets.GITEE_EMAIL }}'
 
     - name: Mirror repository to Gitee
       env:
