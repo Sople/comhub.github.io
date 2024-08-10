@@ -25,11 +25,6 @@ jobs:
         eval "$(ssh-agent -s)"
         ssh-add ~/.ssh/id_rsa
 
-    - name: Debug Secrets
-      run: |
-        echo "GITEE_USERNAME: ${{ secrets.GITEE_NAME }}"
-        echo "GITEE_EMAIL: ${{ secrets.GITEE_EMAIL }}"
-
     - name: Set up Git
       run: |
         git config --global user.name '${{ secrets.GITEE_NAME }}'
