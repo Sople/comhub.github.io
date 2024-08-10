@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Sople.net"
   text: "So many people network"
-  tagline: My great project tagline
+  tagline: My great project tagline 2
   actions:
     - theme: brand
       text: Markdown Examples
