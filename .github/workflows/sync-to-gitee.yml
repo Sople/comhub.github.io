@@ -22,5 +22,5 @@ jobs:
       env:
         GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
       run: |
-        git remote add gitee https://oauth2:${GITEE_TOKEN}@gitee.com/<your-gitee-username>/<your-gitee-repo>.git
+        git remote add gitee https://oauth2:${GITEE_TOKEN}@gitee.com/comhub/sople.net.git
         git push --mirror gitee
