@@ -16,7 +16,7 @@ hero:
 features:
   - title: JavaScript
     details: Technology Stack
-    link: /javascript/index.md
+    link: /javascript/primitive_data_types.md
   - title: CSS
     details: Technology Stack
     link: /markdown-examples
