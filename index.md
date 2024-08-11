@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Sople.net"
-  tagline: Full-Stack Development Technology
+  tagline: Full-Stack Development Technologies
   actions:
     - theme: brand
       text: Markdown Examples

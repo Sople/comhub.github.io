@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "start sople.net",
+            "command": "npm run docs:dev",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
