@@ -26,5 +26,8 @@ features:
   - title: Node.js
     details: Technology Stack
     link: /markdown-examples
+  - title: TypeScript
+    details: Technology Stack
+    link: /markdown-examples
 ---
 
