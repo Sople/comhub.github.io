@@ -19,15 +19,15 @@ features:
     link: /javascript/primitive_data_types.md
   - title: CSS
     details: Technology Stack
-    link: /markdown-examples
+    link: /css/introduction.md
   - title: HTML
     details: Technology Stack
-    link: /markdown-examples
+    link: /html/introduction.md
   - title: Node.js
     details: Technology Stack
-    link: /markdown-examples
+    link: /nodejs/introduction.md
   - title: TypeScript
     details: Technology Stack
-    link: /markdown-examples
+    link: /typescript/introduction.md
 ---
 
