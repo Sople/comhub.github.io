@@ -35,6 +35,7 @@ console.log(name, greeting); // John Doe Hello, world!
 ```
 # Symbol
 ```javascript
-let mySymbol = Symbol('mySymbol');
-console.log(mySymbol); // Symbol(mySymbol)
+let symbol1 = Symbol('description');
+let symbol2 = Symbol('description');
+console.log(symbol1 === symbol2); // false
 ```
