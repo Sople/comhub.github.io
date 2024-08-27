@@ -1,6 +1,6 @@
 To implement asynchronization in JavaScript, you can use callbacks, promises, and the `async/await` syntax. Here's a brief overview of each method:
 
-# Callbacks
+## Callbacks
 A callback is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
 
 ```javascript
@@ -15,7 +15,7 @@ fetchData((data) => {
 });
 ```
 
-# Promises
+## Promises
 A promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 
 ```javascript
@@ -44,7 +44,7 @@ fetchData()
   });
 ```
 
-# Async/Await
+## Async/Await
 `async` and `await` make it easier to work with promises. `async` functions return a promise, and `await` can be used to wait for a promise to resolve.
 
 ```javascript
@@ -64,7 +64,7 @@ async function getData() {
 getData();
 ```
 
-# Fetch API
+## Fetch API
 The Fetch API provides a way to make network requests and handle responses. It returns a promise.
 
 ```javascript

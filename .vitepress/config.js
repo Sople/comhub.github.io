@@ -35,14 +35,7 @@ export default defineConfig({
         {
           text: 'TypeScript',
           items: [
-            { text: 'Introduction', link: '/typescript/introduction.md' },
-            { text: 'Data Types', link: '/typescript/data_types.md' },
-            { text: 'Control Flow', link: '/typescript/control_flow.md' },
-            { text: 'Functions', link: '/typescript/functions.md' },
-            { text: 'Modules', link: '/typescript/modules.md' },
-            { text: 'OOP', link: '/typescript/oop.md' },
-            { text: 'Libraries', link: '/typescript/libraries.md' },
-            { text: 'Testing', link: '/typescript/testing.md' },
+            { text: 'Introduction', link: '/typescript/introduction.md' }
           ]
         }
       ],
@@ -71,6 +64,8 @@ export default defineConfig({
         }
       ]
     },
+
+    outline: 'deep',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/sople' }

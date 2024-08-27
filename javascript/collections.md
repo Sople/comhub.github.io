@@ -1,6 +1,6 @@
 In JavaScript, collections are data structures that allow you to store and manage groups of related data. The primary collection types in JavaScript include:
 
-# Arrays
+## Arrays
 - **Definition**: Ordered lists of values.
 - **Methods**: `push`, `pop`, `shift`, `unshift`, `map`, `filter`, `reduce`, `forEach`, `find`, `indexOf`, `slice`, `splice`, etc.
 - **Usage**:
@@ -9,7 +9,7 @@ In JavaScript, collections are data structures that allow you to store and manag
   arr.push(4); // [1, 2, 3, 4]
   ```
 
-# Sets
+## Sets
 - **Definition**: Collections of unique values.
 - **Methods**: `add`, `delete`, `has`, `clear`, `forEach`.
 - **Usage**:
@@ -18,7 +18,7 @@ In JavaScript, collections are data structures that allow you to store and manag
   set.add(4); // Set {1, 2, 3, 4}
   ```
 
-# Maps
+## Maps
 - **Definition**: Collections of key-value pairs.
 - **Methods**: `set`, `get`, `delete`, `has`, `clear`, `forEach`.
 - **Usage**:
@@ -28,7 +28,7 @@ In JavaScript, collections are data structures that allow you to store and manag
   console.log(map.get('key')); // 'value'
   ```
 
-# WeakSets
+## WeakSets
 - **Definition**: Collections of objects, where the objects are held weakly.
 - **Methods**: `add`, `delete`, `has`.
 - **Usage**:
@@ -38,7 +38,7 @@ In JavaScript, collections are data structures that allow you to store and manag
   weakSet.add(obj);
   ```
 
-# WeakMaps
+## WeakMaps
 - **Definition**: Collections of key-value pairs where keys are objects and are held weakly.
 - **Methods**: `set`, `get`, `delete`, `has`.
 - **Usage**:
@@ -48,7 +48,7 @@ In JavaScript, collections are data structures that allow you to store and manag
   weakMap.set(obj, 'value');
   ```
 
-# Typed Arrays
+## Typed Arrays
 - **Definition**: Arrays of specific numeric types.
 - **Types**: `Int8Array`, `Uint8Array`, `Uint8ClampedArray`, `Int16Array`, `Uint16Array`, `Int32Array`, `Uint32Array`, `Float32Array`, `Float64Array`.
 - **Usage**:
