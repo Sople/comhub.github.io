@@ -5,7 +5,7 @@ export default defineConfig({
   title: "wwwto.com",
   description: "Full-Stack Development Technologies",
   themeConfig: {
-    siteTitle: 'WWWTO.com',
+    siteTitle: 'WWWTO',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
