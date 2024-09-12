@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Sople.net"
+  name: "JavaScript"
   tagline: Full-Stack Development Technologies
   actions:
     - theme: brand
