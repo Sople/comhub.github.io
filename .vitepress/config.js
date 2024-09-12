@@ -2,9 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Sople.net",
+  title: "wwwto.com",
   description: "Full-Stack Development Technologies",
   themeConfig: {
+    siteTitle: 'WWWTO.com',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
