@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "start sople.net",
+            "name": "start wwwto.com",
             "command": "npm run docs:dev",
             "request": "launch",
             "type": "node-terminal"
