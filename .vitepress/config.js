@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Full-Stack Development Technologies",
   themeConfig: {
     siteTitle: '',
-    logo: 'logo/logo.png',
+    logo: '/logo/logo.png',
     logoLink: '/',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
