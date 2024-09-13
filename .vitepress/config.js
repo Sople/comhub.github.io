@@ -5,8 +5,8 @@ export default defineConfig({
   title: "wwwto.com",
   description: "Full-Stack Development Technologies",
   themeConfig: {
-    siteTitle: '',
-    logo: '/logo/logo.png',
+    siteTitle: false,
+    logo: 'logo/logo.png',
     logoLink: '/',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
