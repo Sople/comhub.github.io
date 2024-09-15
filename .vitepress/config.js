@@ -4,9 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "wwwto.com",
   description: "Full-Stack Development Technologies",
+  head: [
+    ['link', { rel: 'icon', href: 'logo/favicon.ico' }] // 引用 favicon.ico
+  ],
   themeConfig: {
     siteTitle: false,
-    logo: 'logo/logo.png',
+    logo: 'logo/logo.svg',
     logoLink: '/',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
