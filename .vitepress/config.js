@@ -5,7 +5,15 @@ export default defineConfig({
   title: "wwwto.com",
   description: "Full-Stack Development Technologies",
   head: [
-    ['link', { rel: 'icon', href: 'logo/favicon.ico' }] // 引用 favicon.ico
+    ['link', { rel: 'icon', href: 'logo/favicon.ico' }], // 引用 favicon.ico
+    // 添加 Google Analytics 代码
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-KF5QQXRKX4' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KF5QQXRKX4');
+    `]
   ],
   themeConfig: {
     siteTitle: false,
