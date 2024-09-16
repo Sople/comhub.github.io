@@ -86,7 +86,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/sople' }
+      { icon: 'github', link: 'https://github.com/iwwwto' }
     ]
   }
 })
