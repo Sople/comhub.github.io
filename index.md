@@ -31,17 +31,17 @@ features:
     link: /typescript/introduction.md
   - title: Vue.js
     icon:
-      src: /vue-logo.svg
+      src: https://vuejs.org/logo.svg
     details: The Progressive JavaScript Framework
     link: https://vuejs.org
   - title: VitePress
     icon:
-      src: /vitepress-logo-mini.svg
+      src: https://vitepress.dev/vitepress-logo-mini.svg
     details: Vite & Vue powered static site generator
     link: https://vitepress.dev
   - title: Kimi.ai
     icon:
-      src: /kimi-favicon.ico
+      src: https://statics.moonshot.cn/kimi-chat/favicon.ico
     details: 帮你看更大的世界
     link: https://kimi.ai
 ---
