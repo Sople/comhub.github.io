@@ -29,5 +29,20 @@ features:
   - title: TypeScript
     details: Technology Stack
     link: /typescript/introduction.md
+  - title: Vue.js
+    icon:
+      src: /vue-logo.svg
+    details: The Progressive JavaScript Framework
+    link: https://vuejs.org
+  - title: VitePress
+    icon:
+      src: /vitepress-logo-mini.svg
+    details: Vite & Vue powered static site generator
+    link: https://vitepress.dev
+  - title: Kimi.ai
+    icon:
+      src: /kimi-favicon.ico
+    details: 帮你看更大的世界
+    link: https://kimi.ai
 ---
 

@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "wwwto.com",
+  title: "wwwto.com - The map for Internet",
   description: "Full-Stack Development Technologies",
   head: [
-    ['link', { rel: 'icon', href: '/logo/favicon.ico' }], // 引用 favicon.ico
+    ['link', { rel: 'icon', href: '/logo/favicon.svg' }], // 引用 favicon.ico
     // 添加 Google Analytics 代码
     ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-KF5QQXRKX4' }],
     ['script', {}, `
