@@ -87,6 +87,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/iwwwto' }
-    ]
+    ],
+
+    footer: {
+      message: false,
+      copyright: 'Copyright © 2005-2024 wwwto.com'
+    }
   }
 })
