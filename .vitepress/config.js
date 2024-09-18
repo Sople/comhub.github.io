@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "wwwto.com - The map for Internet",
+  title: "wwwto.com - Find your way online",
   description: "Full-Stack Development Technologies",
   head: [
     ['link', { rel: 'icon', href: '/logo/favicon.svg' }], // 引用 favicon.ico
@@ -90,7 +90,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: false,
+      message: 'Find your way online',
       copyright: 'Copyright © 2005-2024 wwwto.com'
     }
   }
