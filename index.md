@@ -30,7 +30,7 @@ features:
     icon:
       src: https://www.typescriptlang.org/icons/icon-48x48.png?v=8944a05a8b601855de116c8a56d3b3ae
     details: TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience by catching errors and providing fixes before you even run your code.
-    link: /typescript/introduction.md
+    link: https://www.typescriptlang.org/
   - title: Vue.js
     icon:
       src: https://vuejs.org/logo.svg
@@ -41,11 +41,11 @@ features:
       src: https://vitepress.dev/vitepress-logo-mini.svg
     details: Vite & Vue powered static site generator
     link: https://vitepress.dev
-  - title: Kimi.ai
+  - title: Vite
     icon:
-      src: https://statics.moonshot.cn/kimi-chat/favicon.ico
-    details: 帮你看更大的世界
-    link: https://kimi.ai
+      src: https://vitejs.dev/logo.svg
+    details: Next Generation Frontend Tooling
+    link: https://vitejs.dev
   - title: ChatGPT
     icon:
       src: https://cdn.oaistatic.com/assets/favicon-32x32-nm6r4n04.webp
