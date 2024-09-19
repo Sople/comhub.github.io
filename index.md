@@ -55,6 +55,6 @@ features:
     icon:
       src: https://github.com/fluidicon.png
     details: GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
-    link: https://github.com  https://vitejs.dev/logo.svg
+    link: https://github.com
 ---
 
