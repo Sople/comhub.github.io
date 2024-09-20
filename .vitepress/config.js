@@ -24,6 +24,10 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
+    editLink: {
+      pattern: 'https://github.com/iwwwto/wwwto.com/edit/dev/:path',
+      text: 'Edit this page on GitHub'
+    },
 
     sidebar: {
       '/javascript/': [
