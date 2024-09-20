@@ -48,7 +48,7 @@ features:
     link: https://vitejs.dev
   - title: ChatGPT
     icon:
-      src: https://cdn.oaistatic.com/assets/favicon-32x32-nm6r4n04.webp
+      src: https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp
     details: ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.
     link: https://chatgpt.com/
   - title: GitHub
