@@ -3,29 +3,26 @@
 layout: home
 
 hero:
-  name: "JavaScript"
-  tagline: Full-Stack Development Technologies
+  name: Building...
+  tagline: Find your way online !
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: JavaScript
+      link: /javascript/index.md
+    - theme: brand
+      text: CSS
+      link: /css/index.md
+    - theme: brand
+      text: HTML
+      link: /html/index.md
+    - theme: brand
+      text: Node.js
+      link: /nodejs/index.md
+    - theme: brand
+      text: TypeScript
+      link: /typescript/index.md
 
 features:
-  - title: JavaScript
-    details: Technology Stack
-    link: /javascript/index.md
-  - title: CSS
-    details: Technology Stack
-    link: /css/introduction.md
-  - title: HTML
-    details: Technology Stack
-    link: /html/introduction.md
-  - title: Node.js
-    details: Technology Stack
-    link: /nodejs/introduction.md
   - title: TypeScript
     icon:
       src: https://www.typescriptlang.org/icons/icon-48x48.png?v=8944a05a8b601855de116c8a56d3b3ae
