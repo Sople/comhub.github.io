@@ -34,6 +34,7 @@ export default defineConfig({
         {
           text: 'JavaScript',
           items: [
+            { text: 'Introduction', link: '/javascript/index.md' },
             { text: 'Primitive Data Types', link: '/javascript/primitive_data_types.md' },
             { text: 'Variables', link: '/javascript/variables.md' },
             { text: 'Control Flow Statements', link: '/javascript/control_flow_statements.md' },
@@ -53,7 +54,7 @@ export default defineConfig({
         {
           text: 'TypeScript',
           items: [
-            { text: 'Introduction', link: '/typescript/introduction.md' }
+            { text: 'Introduction', link: '/typescript/index.md' }
           ]
         }
       ],
@@ -61,7 +62,7 @@ export default defineConfig({
         {
           text: 'Node.js',
           items: [
-            { text: 'Introduction', link: '/nodejs/introduction.md' }
+            { text: 'Introduction', link: '/nodejs/index.md' }
           ]
         }
       ],
@@ -69,7 +70,7 @@ export default defineConfig({
         {
           text: 'CSS',
           items: [
-            { text: 'Introduction', link: '/css/introduction.md' }
+            { text: 'Introduction', link: '/css/index.md' }
           ]
         }
       ],
@@ -77,7 +78,7 @@ export default defineConfig({
         {
           text: 'HTML',
           items: [
-            { text: 'Introduction', link: '/html/introduction.md' }
+            { text: 'Introduction', link: '/html/index.md' }
           ]
         }
       ]
