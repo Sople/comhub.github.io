@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: Building...
+  name: Ongoing
   tagline: Find your way online !
   actions:
     - theme: brand
