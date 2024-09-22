@@ -1,4 +1,53 @@
 import { defineConfig } from 'vitepress'
+import fs from 'fs'
+import path from 'path'
+
+function getSidebar(dir, basePath = '') {
+  const files = fs.readdirSync(dir)
+  const sidebar = []
+
+  files.forEach(file => {
+    const fullPath = path.join(dir, file)
+    const stat = fs.statSync(fullPath)
+
+    if (stat.isDirectory()) {
+      sidebar.push({
+        text: file,
+        collapsible: true,
+        items: getSidebar(fullPath, path.join(basePath, file))
+      })
+    } else if (file.endsWith('.md')) {
+      const name = file.replace(/\.md$/, '')
+      sidebar.push({
+        text: snakeToTitleCase(name),
+        link: path.join('/docs/', basePath, name + '.md')
+      })
+    }
+  })
+
+  return sidebar
+}
+
+function snakeToTitleCase(snakeCase) {
+  return snakeCase
+    .split('_') // 将字符串按下划线分割成数组
+    .map(word => {
+      // 特殊处理 "Index" 为 "Introduction"
+      if (word.toLowerCase() === 'index') {
+        return 'Introduction';
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1); // 将每个单词的首字母大写
+    })
+    .join(' '); // 将数组重新组合成字符串，并在单词之间添加空格
+}
+
+const sidebarConfig = getSidebar(path.resolve(__dirname, '../docs')).reduce((acc, item) => {
+  acc['/docs/'+item.text+'/'] = item;
+  return acc;
+}, {});
+
+// 打印 sidebar 的最终值
+console.log('Sidebar Configuration:', JSON.stringify(sidebarConfig, null, 2))
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -29,60 +78,7 @@ export default defineConfig({
       text: 'Edit this page on GitHub'
     },
 
-    sidebar: {
-      '/javascript/': [
-        {
-          text: 'JavaScript',
-          items: [
-            { text: 'Introduction', link: '/javascript/index.md' },
-            { text: 'Primitive Data Types', link: '/javascript/primitive_data_types.md' },
-            { text: 'Variables', link: '/javascript/variables.md' },
-            { text: 'Control Flow Statements', link: '/javascript/control_flow_statements.md' },
-            { text: 'Functions', link: '/javascript/functions.md' },
-            { text: 'Objects', link: '/javascript/objects.md' },
-            { text: 'DOM', link: '/javascript/document_object_model.md' },
-            { text: 'Collections', link: '/javascript/collections.md' },
-            { text: 'Modules', link: '/javascript/modules.md' },
-            { text: 'External libraries', link: '/javascript/external_libraries.md' },
-            { text: 'Testing', link: '/javascript/testing.md' },
-            { text: 'OOP', link: '/javascript/object_oriented_programming.md' },
-            { text: 'Asynchronization', link: '/javascript/asynchronization.md' },
-          ]
-        }
-      ],
-      '/typescript/': [
-        {
-          text: 'TypeScript',
-          items: [
-            { text: 'Introduction', link: '/typescript/index.md' }
-          ]
-        }
-      ],
-      '/nodejs/': [
-        {
-          text: 'Node.js',
-          items: [
-            { text: 'Introduction', link: '/nodejs/index.md' }
-          ]
-        }
-      ],
-      '/css/': [
-        {
-          text: 'CSS',
-          items: [
-            { text: 'Introduction', link: '/css/index.md' }
-          ]
-        }
-      ],
-      '/html/': [
-        {
-          text: 'HTML',
-          items: [
-            { text: 'Introduction', link: '/html/index.md' }
-          ]
-        }
-      ]
-    },
+    sidebar: sidebarConfig,
 
     outline: 'deep',
 
