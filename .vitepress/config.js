@@ -14,6 +14,7 @@ function getSidebar(dir, basePath = '') {
       sidebar.push({
         text: file,
         collapsible: true,
+        collapsed: true, 
         items: getSidebar(fullPath, path.join(basePath, file))
       })
     } else if (file.endsWith('.md')) {
