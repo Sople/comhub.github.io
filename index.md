@@ -53,5 +53,10 @@ features:
       src: https://github.com/fluidicon.png
     details: GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.
     link: https://github.com
+  - title: Azure
+    icon:
+      src: https://azure.microsoft.com/favicon.ico?v2
+    details: Invent with purpose, realize cost savings, and make your organization more efficient with Microsoft Azure’s open and flexible cloud computing platform.
+    link: https://azure.com
 ---
 
