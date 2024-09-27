@@ -1,7 +1,7 @@
 {
-  "name": "sople.net",
+  "name": "wwwto.com",
   "version": "1.0.0",
-  "description": "sople.net website",
+  "description": "wwwto.com website",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,9 +10,9 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "author": "lyc",
+  "author": "Cody.Liu",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.3.2"
+    "vitepress": "^1.3.4"
   }
 }

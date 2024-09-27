@@ -48,7 +48,7 @@ const sidebarConfig = getSidebar(path.resolve(__dirname, '../docs')).reduce((acc
 }, {});
 
 // 打印 sidebar 的最终值
-console.log('Sidebar Configuration:', JSON.stringify(sidebarConfig, null, 2))
+// console.log('Sidebar Configuration:', JSON.stringify(sidebarConfig, null, 2))
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
