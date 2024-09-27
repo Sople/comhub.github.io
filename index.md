@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: Ongoing
+  name: In Progress
   tagline: Find your way online !
   actions:
     - theme: brand
@@ -57,6 +57,16 @@ features:
     icon:
       src: https://azure.microsoft.com/favicon.ico?v2
     details: Invent with purpose, realize cost savings, and make your organization more efficient with Microsoft Azure’s open and flexible cloud computing platform.
-    link: https://azure.com
+    link: https://azure.com 
+  - title: Node.js
+    icon:
+      src: /favicon/nodejs.png
+    details: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+    link: https://nodejs.org  
+  - title: WebAssembly
+    icon:
+      src: https://webassembly.org/favicon.ico
+    details: WebAssembly (Wasm) is a binary instruction format used to run high-performance applications in modern web browsers.
+    link: https://webassembly.org
 ---
 
