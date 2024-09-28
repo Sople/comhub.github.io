@@ -68,5 +68,20 @@ features:
       src: https://webassembly.org/favicon.ico
     details: WebAssembly (Wasm) is a binary instruction format used to run high-performance applications in modern web browsers.
     link: https://webassembly.org
+  - title: Google Analytics
+    icon:
+      src: /favicon/google_analytics.png
+    details: Google Analytics is a web analytics service offered by Google that tracks and reports website traffic and user behavior.
+    link: https://analytics.google.com
+  - title: Web.dev
+    icon:
+      src: https://www.gstatic.com/devrel-devsite/prod/vdf5af65c45d9e2fdd493c581ff01cb1d11a21b4420a9fcc957400a26863da9d2/web/images/touchicon-180.png
+    details: Web.dev is a resource provided by Google that offers guidance and best practices for building modern web experiences that work on any browser.
+    link: https://web.dev
+  - title: Draw.io
+    icon:
+      src: https://www.drawio.com/favicon.ico
+    details: Draw.io is a free online diagramming tool that allows users to create flowcharts, network diagrams, UML diagrams, and other types of visual representations.
+    link: https://www.drawio.com/
 ---
 
