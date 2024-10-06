@@ -1,0 +1,24 @@
+<svg width="246.000000" height="242.000000" viewBox="0 0 246 242" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip16_14">
+			<rect id="画板 5" width="246.000000" height="242.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="画板 5" width="246.000000" height="242.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip16_14)">
+		<rect id="矩形 3" x="99.000000" y="84.781189" rx="30.000000" width="131.212402" height="88.501892" transform="rotate(-45 99.000000 84.781189)" fill="#EFEFEF" fill-opacity="0"/>
+		<rect id="矩形 3" x="113.849243" y="84.781189" rx="30.000000" width="110.212402" height="67.501892" transform="rotate(-45 113.849243 84.781189)" stroke="#000000" stroke-opacity="1.000000" stroke-width="21.000000"/>
+		<rect id="矩形 3" x="-8.000000" y="188.781189" rx="30.000000" width="131.212402" height="88.501892" transform="rotate(-45 -8.000000 188.781189)" fill="#EFEFEF" fill-opacity="0"/>
+		<rect id="矩形 3" x="6.849243" y="188.781189" rx="30.000000" width="110.212402" height="67.501892" transform="rotate(-45 6.849243 188.781189)" stroke="#000000" stroke-opacity="1.000000" stroke-width="21.000000"/>
+		<path id="箭头 1" d="M166.49 164.49L192.51 190.51" stroke="#000000" stroke-opacity="1.000000" stroke-width="12.000000" stroke-linecap="round"/>
+		<path id="箭头 1" d="M57.49 53.49L83.5 79.5" stroke="#000000" stroke-opacity="1.000000" stroke-width="12.000000" stroke-linecap="round"/>
+		<path id="箭头 1" d="M101.5 33.1L101.5 69.9" stroke="#000000" stroke-opacity="1.000000" stroke-width="12.000000" stroke-linecap="round"/>
+		<path id="箭头 1" d="M35.1 98.5L71.89 98.5" stroke="#000000" stroke-opacity="1.000000" stroke-width="12.000000" stroke-linecap="round"/>
+		<path id="箭头 1" d="M178 147L217 147" stroke="#000000" stroke-opacity="1.000000" stroke-width="12.000000" stroke-linecap="round"/>
+		<line id="箭头 1" x1="147.500000" y1="175.101624" x2="147.500000" y2="211.898376" stroke="#000000" stroke-opacity="1.000000" stroke-width="12.000000"/>
+		<rect id="矩形 5" x="74.999939" y="157.266968" width="122.000000" height="16.053040" transform="rotate(-45 74.999939 157.266968)" fill="#FFFFFF" fill-opacity="1.000000"/>
+	</g>
+</svg>
