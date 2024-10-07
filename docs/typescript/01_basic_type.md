@@ -1,0 +1,18 @@
+TypeScript's type system is one of its core features, providing static type checking to catch errors at compile time rather than runtime. 
+
+### Type System
+- **Static Typing**: Explicitly define the types of variables, function parameters, and return values.
+  ```typescript
+  let name: string = "John";
+  let age: number = 30;
+  ```
+- **Type Inference**: TypeScript can automatically infer types based on initial values.
+  ```typescript
+  let isActive = true;  // TypeScript infers this as boolean
+  ```
+- **Primitive Types**: Includes [`string`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Flyc%2FDesktop%2Fwwwto.com%2Fdocs%2Ftypescript%2Fall.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A6%2C%22character%22%3A10%7D%7D%5D%2C%227b835b9d-7b09-46e1-be1e-4b05b8789dd0%22%5D "Go to definition"), [`number`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Flyc%2FDesktop%2Fwwwto.com%2Fdocs%2Ftypescript%2Fall.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A7%2C%22character%22%3A9%7D%7D%5D%2C%227b835b9d-7b09-46e1-be1e-4b05b8789dd0%22%5D "Go to definition"), [`boolean`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Flyc%2FDesktop%2Fwwwto.com%2Fdocs%2Ftypescript%2Fall.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A11%2C%22character%22%3A51%7D%7D%5D%2C%227b835b9d-7b09-46e1-be1e-4b05b8789dd0%22%5D "Go to definition"), [`null`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Flyc%2FDesktop%2Fwwwto.com%2Fdocs%2Ftypescript%2Fall.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A12%2C%22character%22%3A51%7D%7D%5D%2C%227b835b9d-7b09-46e1-be1e-4b05b8789dd0%22%5D "Go to definition"), [`undefined`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Flyc%2FDesktop%2Fwwwto.com%2Fdocs%2Ftypescript%2Fall.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A12%2C%22character%22%3A57%7D%7D%5D%2C%227b835b9d-7b09-46e1-be1e-4b05b8789dd0%22%5D "Go to definition"), [`symbol`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Flyc%2FDesktop%2Fwwwto.com%2Fdocs%2Ftypescript%2Fall.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A12%2C%22character%22%3A68%7D%7D%5D%2C%227b835b9d-7b09-46e1-be1e-4b05b8789dd0%22%5D "Go to definition"), [`bigint`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Flyc%2FDesktop%2Fwwwto.com%2Fdocs%2Ftypescript%2Fall.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A12%2C%22character%22%3A76%7D%7D%5D%2C%227b835b9d-7b09-46e1-be1e-4b05b8789dd0%22%5D "Go to definition").
+- **Array and Tuple Types**: Defining arrays and tuples of specific types.
+  ```typescript
+  let numbers: number[] = [1, 2, 3];
+  let person: [string, number] = ["Alice", 25];
+  ```

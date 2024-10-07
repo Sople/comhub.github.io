@@ -1,0 +1,1 @@
+TypeScript is a statically typed superset of JavaScript that adds optional static types to the language. It is designed to develop large-scale applications and transcompiles to JavaScript. 
