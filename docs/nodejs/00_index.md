@@ -1,0 +1,1 @@
+Node.js is a powerful runtime environment that allows JavaScript to be executed server-side, making it possible to build fast, scalable network applications.
