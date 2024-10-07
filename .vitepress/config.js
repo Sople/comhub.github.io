@@ -34,7 +34,7 @@ function snakeToTitleCase(snakeCase) {
     .split('_') // 将字符串按下划线分割成数组
     .map(word => {
       // 特殊处理 "Index" 为 "Introduction"
-      if (word.toLowerCase() === 'index') {
+      if (word.toLowerCase() === '00_index') {
         return 'Introduction';
       }
       return word.charAt(0).toUpperCase() + word.slice(1); // 将每个单词的首字母大写

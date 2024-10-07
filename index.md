@@ -8,19 +8,19 @@ hero:
   actions:
     - theme: brand
       text: JavaScript
-      link: /docs/javascript/index.md
+      link: /docs/javascript/00_index.md
     - theme: brand
       text: CSS
-      link: /docs/css/index.md
+      link: /docs/css/00_index.md
     - theme: brand
       text: HTML
-      link: /docs/html/index.md
+      link: /docs/html/00_index.md
     - theme: brand
       text: Node.js
-      link: /docs/nodejs/index.md
+      link: /docs/nodejs/00_index.md
     - theme: brand
       text: TypeScript
-      link: /docs/typescript/index.md
+      link: /docs/typescript/00_index.md
 
 features:
   - title: TypeScript
