@@ -52,7 +52,7 @@ const sidebarConfig = getSidebar(path.resolve(__dirname, '../docs')).reduce((acc
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "wwwto - www to the future",
+  title: "WWWWTO - find your way online",
   description: "Full-Stack Development Technologies",
   head: [
     ['link', { rel: 'icon', href: '/logo/favicon3.svg' }], // 引用 favicon.icoo
@@ -92,7 +92,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'WWW TO THE FUTURE',
+      message: 'Find your way online',
       copyright: 'Copyright © 2005-2024 wwwto.com'
     }
   }
