@@ -52,7 +52,7 @@ const sidebarConfig = getSidebar(path.resolve(__dirname, '../docs')).reduce((acc
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "WWWTO - find your way online",
+  title: "wwwto - find your way online",
   description: "Full-Stack Development Technologies",
   head: [
     ['link', { rel: 'icon', href: '/logo/favicon3.svg' }], // 引用 favicon.icoo
