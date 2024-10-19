@@ -67,7 +67,7 @@ export default defineConfig({
   ],
   themeConfig: {
     siteTitle: false,
-    logo: '/logo/logo.svg',
+    logo: '/logo/logo4.svg',
     logoLink: '/',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
