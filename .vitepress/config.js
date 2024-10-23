@@ -92,7 +92,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message:'The real Internet era spans from WWW to the future',
+      message:'The Internet era extends from www to the future',
       copyright: 'Copyright © 2005-2024 wwwto.com'
     }
   }
