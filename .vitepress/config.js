@@ -92,7 +92,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message:'The Information Age extends from www to the future',
+      message:'From www to the future',
       copyright: 'Copyright © 2005-2024 wwwto.com'
     }
   }
