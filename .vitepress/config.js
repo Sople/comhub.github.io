@@ -92,7 +92,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message:'From www to the future',
+      message:'From WWW to the Future',
       copyright: 'Copyright © 2005-2024 wwwto.com'
     }
   }
